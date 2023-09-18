@@ -12,8 +12,10 @@ Você vai precisar das seguintes ferramentas e tecnologias:
 - [Node.js](https://nodejs.org/en/)
 - [Java JDK8](http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html)
 - [Android Studio](https://developer.android.com/studio/index.html?hl=pt-br)
-- [Appium](http://appium.io/downloads.html)
+- [Appium](https://appium.io/docs/en/2.1/quickstart/install/)
+- [Appium Driver](https://appium.io/docs/en/2.1/quickstart/uiauto2-driver/)
 - [Robot Framework](https://robotframework.org/)
+- [Appium Inspector](https://github.com/appium/appium-inspector/releases)
 
 ## 💻 Ferramentas
 
@@ -79,27 +81,14 @@ appium-doctor --android
     <img alt="QAninja Academy" src=".github/doctor.png" width="100%" />
 </h1>
 
-## 📱Appium Desktop
-
-Instale o Appium Desktop Latest release (não faça download do Pre-release)
 
 
 ## 🤔 Executar
 
-- Abra o Appium Desktop e clique em Start Server;
+- Abra o servidor do Appium no CMD digitando no `appium` e aperte Enter;
 - Acesse a pasta do projeto;
 - Instale o Robot e a Lib do Appium conforme descrito na [doc](https://robotframework.org/);
-- Execute o comando: `robot -d ./logs tests'`;
+- Execute o comando: `robot .\mobile_tests\nuclone_testes.robot`;
 - Enjoy.
 
 ---
-
-<h1 align="left">
-    <img alt="QAninja Academy" src=".github/logo-qaninja.png" width="150px" />
-</h1>
-
-## 👨‍💻 Meu curso de Robot com Appium
-
-- [No Dojo da QA Ninja](https://qaninja.academy/curso/introducao-ao-appium-com-robot-framework/)
-
-Feito com ♥ in OZ :wave: [Saiba mais aqui!](https://qaninja.academy)
